@@ -1,0 +1,13 @@
+#include <stdio.h> 
+#include <sys/types.h> 
+#include <unistd.h> 
+#include <stdlib.h> 
+ 
+int main () { 
+pid_t p,a; 
+p = fork(); 
+a = fork(); 
+printf("AC&SO \n"); 
+exit(0); 
+}
+

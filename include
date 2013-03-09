@@ -1,0 +1,165 @@
+root:x:0:0:root:/root:/bin/bash
+bin:x:1:1:bin:/bin:/sbin/nologin
+daemon:x:2:2:daemon:/sbin:/sbin/nologin
+adm:x:3:4:adm:/var/adm:/sbin/nologin
+lp:x:4:7:lp:/var/spool/lpd:/sbin/nologin
+sync:x:5:0:sync:/sbin:/bin/sync
+shutdown:x:6:0:shutdown:/sbin:/sbin/shutdown
+halt:x:7:0:halt:/sbin:/sbin/halt
+mail:x:8:12:mail:/var/spool/mail:/sbin/nologin
+news:x:9:13:news:/etc/news:
+uucp:x:10:14:uucp:/var/spool/uucp:/sbin/nologin
+operator:x:11:0:operator:/root:/sbin/nologin
+games:x:12:100:games:/usr/games:/sbin/nologin
+gopher:x:13:30:gopher:/var/gopher:/sbin/nologin
+ftp:x:14:50:FTP User:/var/ftp:/sbin/nologin
+nobody:x:99:99:Nobody:/:/sbin/nologin
+nscd:x:28:28:NSCD Daemon:/:/sbin/nologin
+vcsa:x:69:69:virtual console memory owner:/dev:/sbin/nologin
+rpc:x:32:32:Portmapper RPC user:/:/sbin/nologin
+mailnull:x:47:47::/var/spool/mqueue:/sbin/nologin
+smmsp:x:51:51::/var/spool/mqueue:/sbin/nologin
+pcap:x:77:77::/var/arpwatch:/sbin/nologin
+dbus:x:81:81:System message bus:/:/sbin/nologin
+avahi:x:70:70:Avahi daemon:/:/sbin/nologin
+sshd:x:74:74:Privilege-separated SSH:/var/empty/sshd:/sbin/nologin
+haldaemon:x:68:68:HAL daemon:/:/sbin/nologin
+avahi-autoipd:x:100:102:avahi-autoipd:/var/lib/avahi-autoipd:/sbin/nologin
+tiagop:x:500:500::/home/tiagop:/bin/bash
+exim:x:93:93::/var/spool/exim:/sbin/nologin
+ntp:x:38:38::/etc/ntp:/sbin/nologin
+apache:x:48:48:Apache:/var/www:/sbin/nologin
+distcache:x:94:94:Distcache:/:/sbin/nologin
+radiusd:x:95:95:radiusd user:/home/radiusd:/sbin/nologin
+clamav:x:101:103:Clam Anti Virus Checker:/var/clamav:/sbin/nologin
+dovenull:x:102:104:Dovecot's unauthorized user:/usr/libexec/dovecot:/sbin/nologin
+dovecot:x:407:105:Dovecot IMAP server:/usr/libexec/dovecot:/sbin/nologin
+
+# MIGRACAO DE CONTAS DO SERVIDOR ANTIGO ALUNOS
+
+# aeupidh:x:534:100:Associacao de Estudantes da Universidade Portucalense:/home/aeupidh:/bin/bash
+# aiesec:x:643:100:AIESEC - Universidade Portucalense:/home/aiesec:/bin/bash
+# tuna:x:973:100:Tuna Academica da Universidade Portucalense:/home/tuna:/bin/bash
+# pag:x:1201:100:PRESIDENTE DA ASSEMBLEIA GERAL (AIESEC):/home/pag:/bin/bash
+# lcp:x:1202:100:PRESIDENTE (AIESEC):/home/lcp:/bin/bash
+# lcvp:x:1203:100:VICE PRESIDENTE (AIESEC):/home/lcvp:/bin/bash
+# fin:x:1205:100:DIRECTOR DE FINANCAS (AIESEC):/home/fin:/bin/bash
+# dop:x:1207:100:DIRECTORA DE PROJECTOS (AIESEC):/home/dop:/bin/bash
+# exc:x:1208:100:DIRECTOR DE EXCHANGE (AIESEC):/home/exc:/bin/bash
+
+# Criados em 23-12-98
+proto:x:5097:100:Prototipo:/home/proto:/sbin/nologin
+
+# Criados em 06-01-99
+majordomo:x:5099:100::/home/majordomo:/sbin/nologin
+
+# Criados em 14-04-99
+nediup:x:5130:100:Nucleo de Estudantes Dep. Inf. Univ. Portuc. Resp. Paulo Castro 12413:/home/nediup:/sbin/nologin
+
+# Criados em 19-11-99
+adehaup:x:5242:100:Associacao de alunos de hist. (resp. 9951 e 16384):/home/adehaup:/sbin/nologin
+
+# Criados em 10-12-99
+abilio:x:406:100:Abilio Fernando Costa Cardoso:/home/abilio:/bin/bash
+
+# Criados em 15-03-02
+elsa:x:5450:100:Associacao Europeia de Estudantes de Direito:/home/elsa:/sbin/nologin
+
+# Criados em 19-03-02
+portal:x:5451:100:Portal dos Alunos da Universidade Portucalense:/home/portal:/dev/null
+
+Criados em 14-12-2004
+cveteranos:x:11232:100:Conselho de Veteranos:/home/cveteranos:/sbin/nologin
+
+# Criados em 15-09-05
+al21043:x:11235:100:ALEXANDRE FILIPE CARVALHO REIS DA SILVA :/home/al21043:/sbin/nologin
+al21032:x:11301:100:HENRIQUE JORGE BARROS MACEDO LOURENCO :/home/al21032:/sbin/nologin
+al21061:x:11373:100:PEDRO MIGUEL COELHO FERREIRA GRILO :/home/al21061:/sbin/nologin
+
+# Criados em 04-10-05
+al21121:x:11568:100:NORBERTO FRANCISCO FERRAZ BRAS GOMES :/home/al21121:/sbin/nologin
+
+# Criados em 06-02-06
+al21394:x:11970:100:FELISBERTO BORGES MASCARENHAS:/home/al21394:/sbin/nologin
+
+# Criados em 22-02-06
+labedsoc:x:12013:100:Laboratorio de Educacao Social:/home/labedsoc:/sbin/nologin
+shse:x:12014:12014:Estagiarios SHS:/home/shse:/sbin/nologin
+
+# Criados em 24-09-07
+al22034:x:12975:100:CRISTIANA SOFIA SILVA DE SOUSA:/home/al22034:/sbin/nologin
+al22035:x:12976:100:CRISTIANA SOFIA SILVA DE SOUSA:/home/al22035:/sbin/nologin
+
+# Criados em 04-09-08
+al22930:x:13897:100:ANA CATARINA NORA MONTEIRO:/home/al22930:/sbin/nologin
+al23052:x:13917:100:ANDRE MANUEL LOURENCO TAVEIRA:/home/al23052:/sbin/nologin
+al22915:x:13994:100:EDSON DE JESUS FERREIRA FRANCO:/home/al22915:/sbin/nologin
+al10369:x:14003:100:ELSA MARIA BALTAR MENDES:/home/al10369:/sbin/nologin
+al22926:x:14024:100:HELDER MARCO DOS SANTOS FERREIRA:/home/al22926:/sbin/nologin
+al22994:x:14062:100:JORGE FILIPE VILHENA MOREIRA:/home/al22994:/sbin/nologin
+al22875:x:14102:100:MAGDA OLIVEIRA PEIXOTO:/home/al22875:/sbin/nologin
+al22917:x:14176:100:RAQUEL OLIVEIRA LOPES:/home/al22917:/sbin/nologin
+al23134:x:14239:100:WILLIAM BAUMGARTNR SOARES:/home/al23134:/sbin/nologin
+
+# Criados em 09-10-08
+al23227:x:14391:100:JESSICA AUDREY DOS SANTOS:/home/al23227:/sbin/nologin
+al23235:x:14450:100:MARCOS ANDRE LUCAS DA SILVA:/home/al23235:/sbin/nologin
+al23278:x:14470:100:MARIANA RAIMUNDO PEREIRA MENDES:/home/al23278:/sbin/nologin
+al23177:x:14499:100:PATRICIA RAQUEL DE AMARAL MORGADO:/home/al23177:/sbin/nologin
+
+# Criados em 22-09-09
+al24007:x:14718:100:ANA RAQUEL CUNHA PEIXOTO:/home/al24007:/sbin/nologin
+al23880:x:14772:100:BRUNO PEDRO SIMAO:/home/al23880:/sbin/nologin
+al23914:x:14816:100:CLOVIS PEREIRA ALVES:/home/al23914:/sbin/nologin
+al24139:x:14848:100:DIOGO CASTRO ABREU DIAS:/home/al24139:/sbin/nologin
+al24158:x:14926:100:ISABEL CECILIA FALCAO MARTINS:/home/al24158:/sbin/nologin
+al23763:x:14963:100:JOAO JOSE DE MAGALHAES TORRES:/home/al23763:/sbin/nologin
+al23897:x:14980:100:JOEL ALBERTO BARBOSA DA SILVA:/home/al23897:/sbin/nologin
+al23740:x:14981:100:JONATHAN DE JESUS MARTINS:/home/al23740:/sbin/nologin
+al23890:x:14984:100:JORGE MANUEL RAMALHO DE CARVALHO:/home/al23890:/sbin/nologin
+al23915:x:15000:100:JOSE MANUEL NOVERSA GOMES:/home/al23915:/sbin/nologin
+al23884:x:15002:100:JOSE MANUEL SANTOS MONTEIRO:/home/al23884:/sbin/nologin
+al23758:x:15003:100:JOSE MIGUEL FERREIRA RAMALHO:/home/al23758:/sbin/nologin
+al23963:x:15057:100:MARIA DA NATIVIDADE DIAS DE MOURA LOPES TEIXEIRA:/home/al23963:/sbin/nologin
+al24003:x:15064:100:MARIA DO ROSARIO OLIVEIRA DE AMORIM:/home/al24003:/sbin/nologin
+al23813:x:15102:100:MIGUEL DIOGO DA ROCHA E CUNHA RODRIGUES MACHADO:/home/al23813:/sbin/nologin
+al24159:x:15109:100:NUNO ALEXANDRE LOUREIRO GONCALVES:/home/al24159:/sbin/nologin
+al23936:x:15130:100:PAULA CRISTINA QUEDA BOLITO:/home/al23936:/sbin/nologin
+al24138:x:15139:100:PEDRO EMANUEL DOS SANTOS CORREIA SA:/home/al24138:/sbin/nologin
+al23903:x:15143:100:PEDRO JOAO DA SILVA PINHO:/home/al23903:/sbin/nologin
+al23751:x:15162:100:RICARDO ALEXANDRE OLIVEIRA DA ROCHA COELHO:/home/al23751:/sbin/nologin
+al24009:x:15187:100:RUI PEDRO VEIGA OLIVEIRA:/home/al24009:/sbin/nologin
+al24072:x:15225:100:SONIA ISABEL MACEDO DOS SANTOS:/home/al24072:/sbin/nologin
+al23980:x:15287:100:VANIA FILIPA FERREIRA RODRIGUES:/home/al23980:/sbin/nologin
+
+# Criados em 29-09-09
+al24201:x:15313:100:DAVIDE CRISTOVAO ALVES MACHADO:/home/al24201:/sbin/nologin
+
+# Criados em 28-09-10
+al24840:x:15753:100:ANA LUISA PEREIRA OLIVEIRA:/home/al24840:/sbin/nologin
+al24946:x:15959:100:HELENA ISABEL MARTINHO GONCALVES SILVA:/home/al24946:/sbin/nologin
+al24510:x:15984:100:JOANA EMANUEL SAO SIMAO LEITAO:/home/al24510:/sbin/nologin
+al24844:x:16098:100:MARIA DO CARMO DE SOUSA PEREIRA PINTO DA SILVA:/home/al24844:/sbin/nologin
+al25075:x:16127:100:MARIANA VIEIRA ALMEIDA:/home/al25075:/sbin/nologin
+al24773:x:16143:100:MARTA TAVARES VIDEIRA:/home/al24773:/sbin/nologin
+al25019:x:16271:100:SILVIA MANUELA SOARES DOS SANTOS ROCHA:/home/al25019:/sbin/nologin
+al25054:x:16274:100:SOFIA FERREIRA FERNANDES:/home/al25054:/sbin/nologin
+al25002:x:16324:100:VANUZIA CRISTINA SANTOS FERRAZ:/home/al25002:/sbin/nologin
+
+# Criados em 16-03-11
+uc121403:x:16333:100:Unidade curricular gestao de eventos 2010-2011:/home/uc121403:/sbin/nologin
+
+# Criados em 20-05-11
+al18413:x:16490:100:ANTONIO MARCIO DA CUNHA RODRIGUES:/home/al18413:/sbin/nologin
+al4624:x:16503:100:AUGUSTO MANUEL DOS INOCENTES RODRIGUES PINTO:/home/al4624:/sbin/nologin
+al18099:x:16788:100:HELDER JOSE PEREIRA DOS SANTOS:/home/al18099:/sbin/nologin
+al17943:x:16800:100:HERMANO ANDRE SOUSA MARTINS DA COSTA:/home/al17943:/sbin/nologin
+al16236:x:16926:100:JOSE BERNARDO DE PINHO DIAS MACEDO E CUNHA:/home/al16236:/sbin/nologin
+al12564:x:17019:100:MANUEL LUIS ANDRADE OLIVEIRA:/home/al12564:/sbin/nologin
+al9553:x:17140:100:MARLENE JESUS CASTRO RICARDO:/home/al9553:/sbin/nologin
+al17798:x:17223:100:PAULO JORGE AZEVEDO PINTO:/home/al17798:/sbin/nologin
+al17814:x:17285:100:RICARDO SERGIO SILVA PERFEITO:/home/al17814:/sbin/nologin
+al10676:x:17394:100:SONIA CRISTINA TEIXEIRA RIBEIRO SERRA:/home/al10676:/sbin/nologin
+
+mysql:x:27:27:MySQL Server:/var/lib/mysql:/bin/bash
+aramos:x:17395:17396:Alexandra Patricia Horta Ramos,FEP:/home/aramos:/sbin/nologin
